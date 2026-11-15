@@ -1,0 +1,18 @@
+{
+  "name": "trailerflix-api",
+  "version": "1.0.0",
+  "description": "API REST con Node.js, Express, MySQL y Sequelize para Trailerflix",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "migrar": "node src/seed/migrar.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.19.2",
+    "mysql2": "^3.24.6",
+    "sequelize": "^6.37.3"
+  }
+}
